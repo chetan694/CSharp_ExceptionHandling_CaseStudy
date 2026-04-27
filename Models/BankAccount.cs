@@ -93,8 +93,8 @@ namespace BankingSystem.Models
         /// </summary>
         public void CheckBalance()
         {
-            Console.WriteLine($"  Account Holder : {AccountHolderName}");
-            Console.WriteLine($"  Current Balance: ₹{Balance:F2}");
+            Console.WriteLine("Account Holder: " + AccountHolderName);
+            Console.WriteLine("Current Balance: " + Balance);
         }
     }
 }
